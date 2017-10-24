@@ -38,7 +38,7 @@ void really_delete(struct node *temp,struct node *prev)
 
 void Insert(int x,struct node *temp,struct node *prev)
 {
-    if(root==NULL)
+    if(temp==NULL)
     {
         struct node *ptr=(struct node*)malloc(sizeof(struct node));
         ptr->data=x;
